@@ -11,11 +11,8 @@ export default function WeatherList() {
 
 const styles = StyleSheet.create({
   container: {
-    position: "absolute",
-    top: 44,
-    left: 55,
     height: 100,
-    width: 250,
+    width: 300,
     borderWidth: 3,
   },
 });

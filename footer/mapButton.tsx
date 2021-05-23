@@ -11,10 +11,8 @@ export default function MapButton() {
 
 const styles = StyleSheet.create({
   container: {
-    position: "absolute",
-    height: 30,
+    height: 40,
+    width: 100,
     borderWidth: 3,
-    top: 6,
-    left: 170,
   },
 });

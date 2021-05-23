@@ -15,21 +15,17 @@ export default function ClothesContainer() {
 
 const styles = StyleSheet.create({
   container: {
-    position: "absolute",
-    top: 185,
-    left: 18,
-    height: 275,
-    width: 370,
+    flex: 2,
+    display: "flex",
+    justifyContent: "space-around",
+    alignItems: "center",
     borderWidth: 3,
   },
 
   clothesTitle: {
-    position: "absolute",
-    left: 80,
-    top: 8,
-    borderWidth: 3,
     width: 200,
     height: 55,
     textAlign: "center",
+    borderWidth: 3,
   },
 });

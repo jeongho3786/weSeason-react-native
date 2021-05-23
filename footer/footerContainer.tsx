@@ -12,8 +12,11 @@ export default function FooterContainer() {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
     borderWidth: 3,
-    borderColor: "yellow",
-    height: 60,
+    borderColor: "rgba(249, 252, 119, 0.945)",
   },
 });

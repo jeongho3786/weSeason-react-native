@@ -13,18 +13,14 @@ export default function WeatherContainer() {
 
 const styles = StyleSheet.create({
   container: {
-    position: "absolute",
-    top: 20,
-    left: 18,
-    height: 160,
-    width: 370,
+    flex: 1.5,
+    display: "flex",
+    justifyContent: "space-around",
+    alignItems: "center",
     borderWidth: 3,
   },
 
   weatherTitle: {
-    position: "absolute",
-    left: 80,
-    top: 8,
     borderWidth: 3,
     width: 200,
     textAlign: "center",

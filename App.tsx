@@ -7,7 +7,7 @@ import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
   return (
-    <View>
+    <View style={styles.container}>
       <HeaderContainer />
       <MainContainer />
       <FooterContainer />
@@ -15,3 +15,9 @@ export default function App() {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});

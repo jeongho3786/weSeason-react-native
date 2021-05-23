@@ -14,9 +14,13 @@ export default function HeaderContainer() {
 
 const styles = StyleSheet.create({
   container: {
-    borderWidth: 3,
-    borderColor: "red",
+    flex: 1,
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
     marginTop: 30,
-    height: 55,
+    borderWidth: 3,
+    borderColor: "rgb(245, 24, 24)",
   },
 });

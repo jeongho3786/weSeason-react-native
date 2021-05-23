@@ -1,7 +1,6 @@
 import React from "react";
 import WeatherContainer from "./weather/weatherContainer";
 import ClothesContainer from "./clothes/clothesContainer";
-import WeatherListfrom from "./weather/weatherList";
 import { StyleSheet, Text, View } from "react-native";
 
 export default function MainContainer() {
@@ -15,8 +14,8 @@ export default function MainContainer() {
 
 const styles = StyleSheet.create({
   container: {
+    flex: 10,
     borderWidth: 3,
-    borderColor: "green",
-    height: 472,
+    borderColor: "rgba(81, 245, 66, 0.514)",
   },
 });

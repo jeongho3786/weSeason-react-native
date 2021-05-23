@@ -11,10 +11,9 @@ export default function Menu() {
 
 const styles = StyleSheet.create({
   container: {
-    position: "absolute",
-    top: 10,
-    right: 8,
-    height: 30,
+    height: 40,
+    width: 250,
+    marginRight: 10,
     borderWidth: 3,
   },
 });

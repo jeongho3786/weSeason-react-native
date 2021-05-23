@@ -11,10 +11,8 @@ export default function Title() {
 
 const styles = StyleSheet.create({
   container: {
-    position: "absolute",
-    top: 10,
-    left: 8,
-    height: 30,
+    height: 40,
+    marginLeft: 10,
     borderWidth: 3,
   },
 });

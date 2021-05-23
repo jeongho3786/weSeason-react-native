@@ -11,9 +11,6 @@ export default function ClothesItem() {
 
 const styles = StyleSheet.create({
   container: {
-    position: "absolute",
-    top: 75,
-    left: 33,
     height: 110,
     width: 300,
     borderWidth: 3,
