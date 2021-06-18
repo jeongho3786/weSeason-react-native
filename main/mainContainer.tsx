@@ -1,7 +1,7 @@
 import React from "react";
 import WeatherContainer from "./weather/weatherContainer";
 import ClothesContainer from "./clothes/clothesContainer";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 
 export default function MainContainer() {
   return (
