@@ -8,8 +8,8 @@ export default function CloudAnimation() {
 
   while (leftCount < 3) {
     let col: number = Math.floor(Math.random() * 570);
-    let durTime: number = Math.floor(Math.random() * (10000 - 8000) + 8000);
-    let delTime: number = Math.floor(Math.random() * (5000 - 500) + 500);
+    let durTime: number = Math.floor(Math.random() * (20000 - 10000) + 10000);
+    let delTime: number = Math.floor(Math.random() * (10000 - 500) + 500);
 
     // if (leftCount > 1) {
     //   col++;
