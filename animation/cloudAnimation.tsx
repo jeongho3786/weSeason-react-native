@@ -8,8 +8,14 @@ export default function CloudAnimation() {
 
   while (leftCount < 3) {
     let col: number = Math.floor(Math.random() * 570);
-    let durTime: number = Math.floor(Math.random() * (8000 - 5000) + 5000);
+    let durTime: number = Math.floor(Math.random() * (10000 - 8000) + 8000);
     let delTime: number = Math.floor(Math.random() * (5000 - 500) + 500);
+
+    // if (leftCount > 1) {
+    //   col++;
+    //   durTime++;
+    //   delTime++;
+    // }
 
     let leftCloud: JSX.Element = (
       <LeftCloud
