@@ -1,35 +1,19 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
+import { useCloud } from "../hooks/animationHooks";
 import LeftCloud from "./leftCloud";
+import RightCLoud from "./rightCloud";
 
 export default function CloudAnimation() {
-  const leftCollection: JSX.Element[] = [];
-  let leftCount: number = 0;
+  const leftCloud: JSX.Element[] = useCloud(LeftCloud);
+  const rightCloud: JSX.Element[] = useCloud(RightCLoud);
 
-  while (leftCount < 3) {
-    let col: number = Math.floor(Math.random() * 570);
-    let durTime: number = Math.floor(Math.random() * (20000 - 10000) + 10000);
-    let delTime: number = Math.floor(Math.random() * (10000 - 500) + 500);
-
-    // if (leftCount > 1) {
-    //   col++;
-    //   durTime++;
-    //   delTime++;
-    // }
-
-    let leftCloud: JSX.Element = (
-      <LeftCloud
-        topValue={col}
-        durationValue={durTime}
-        delayValue={delTime}
-        key={leftCount}
-      />
-    );
-    leftCollection.push(leftCloud);
-    leftCount++;
-  }
-
-  return <View style={styles.container}>{leftCollection}</View>;
+  return (
+    <View style={styles.container}>
+      {leftCloud}
+      {rightCloud}
+    </View>
+  );
 }
 
 const styles = StyleSheet.create({

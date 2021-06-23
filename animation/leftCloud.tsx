@@ -12,15 +12,15 @@ export default function LeftCloud({
   durationValue,
   delayValue,
 }: LeftCloudProps) {
-  const ref = useRef(new Animated.Value(0)).current;
   let windowWidth = Dimensions.get("window").width;
+  const ref = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
     Animated.loop(
       Animated.timing(ref, {
         toValue: windowWidth + 110,
-        duration: durationValue, // 5천에서 8천
-        delay: delayValue, // 천에서 일단 5천
+        duration: durationValue,
+        delay: delayValue,
         useNativeDriver: false, // true시 loop가 안됨
         easing: Easing.linear, // 애니메이션 일정 속도
       })
@@ -33,8 +33,6 @@ export default function LeftCloud({
     left: -110,
     width: 104,
     height: 64,
-    borderWidth: 3,
-    borderColor: "rgb(245, 24, 24)",
     transform: [{ translateX: ref }],
   };
 
