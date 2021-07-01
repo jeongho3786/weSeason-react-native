@@ -5,7 +5,8 @@
 
 ## 진행상황
 
-<h3>21.06.19</h3>
+<details>
+<summary>21.06.19</summary>
 
 * 와이어프레임 적용<br>
 react native expo를 통해 먼저 환경을 구축한 뒤, flex를 사용하여 와이어프레임을 짜보았다.
@@ -13,8 +14,10 @@ react native expo를 통해 먼저 환경을 구축한 뒤, flex를 사용하여
 <p align="center">
 <img src="https://user-images.githubusercontent.com/69492426/123285906-6bed2f80-d548-11eb-952e-2b3d7d0ddae3.jpg" width="400px"/>
 </p>
+</details>
 
-<h3>21.06.21</h3>
+<details>
+<summary>21.06.21</summary>
 
 * 디자인 초안 최종 완성<br>
 figma를 이용해 디자인 초안을 완성했다. 수정한 이미지에 따라 css도 알려주고 비교적 작업을 관리하기도 용이하여 꽤 편했다.<br>
@@ -23,8 +26,10 @@ figma를 이용해 디자인 초안을 완성했다. 수정한 이미지에 따�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/69492426/123287749-eff3e700-d549-11eb-9f7d-1bb6634e4c37.png" width="400"/>
 </p>
+</details>
 
-<h3>21.06.24</h3>
+<details>
+<summary>21.06.24</summary>
 
 * 배경 애니메이션 효과 구현<br>
 전 프로젝트에는 css의 animation 속성을 주로 사용했는데, native에서는 Animated라는 자체적인 메소드를 제공한다. 낯설었지만, 막상 써보니 꽤 편리했다.<br>
@@ -33,3 +38,4 @@ figma를 이용해 디자인 초안을 완성했다. 수정한 이미지에 따�
 <p align="center">
 <img src="https://user-images.githubusercontent.com/69492426/123289260-41e93c80-d54b-11eb-9404-66e542b3de8d.gif" width="400"/>
 </p>
+</details>
