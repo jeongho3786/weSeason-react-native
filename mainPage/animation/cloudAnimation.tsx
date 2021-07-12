@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import { useCloud } from "../hooks/animationHooks";
+import { useCloud } from "../../hooks/animationHooks";
 import LeftCloud from "./leftCloud";
 import RightCLoud from "./rightCloud";
 

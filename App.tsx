@@ -1,27 +1,15 @@
 import React from "react";
-import HeaderContainer from "./header/headerContainer";
-import MainContainer from "./main/mainContainer";
-import FooterContainer from "./footer/footerContainer";
-import CloudAnimation from "./animation/cloudAnimation";
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, View } from "react-native";
-import { LinearGradient } from "expo-linear-gradient";
+import MainPage from "./mainPage/mainPage";
+import { createDrawerNavigator } from "@react-navigation/drawer";
+import { NavigationContainer } from "@react-navigation/native";
+const Drawer = createDrawerNavigator();
 
 export default function App() {
   return (
-    <LinearGradient colors={["#87B0FF", "#A3FFF9"]} style={styles.container}>
-      <CloudAnimation />
-      {/* <HeaderContainer />
-      <MainContainer />
-      <FooterContainer /> */}
-      <StatusBar style="auto" />
-    </LinearGradient>
+    <NavigationContainer>
+      <Drawer.Navigator initialRouteName="main" drawerPosition="right">
+        <Drawer.Screen name="main" component={MainPage} />
+      </Drawer.Navigator>
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    overflow: "hidden",
-  },
-});
