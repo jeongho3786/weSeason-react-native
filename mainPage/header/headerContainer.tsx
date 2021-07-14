@@ -22,5 +22,6 @@ const styles = StyleSheet.create({
     marginTop: 30,
     borderWidth: 3,
     borderColor: "rgb(245, 24, 24)",
+    zIndex: 1,
   },
 });

@@ -17,5 +17,6 @@ const styles = StyleSheet.create({
     flex: 10,
     borderWidth: 3,
     borderColor: "rgba(81, 245, 66, 0.514)",
+    zIndex: 1,
   },
 });

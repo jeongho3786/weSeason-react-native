@@ -1,18 +1,28 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Image } from "react-native";
 
 export default function Title() {
   return (
     <View style={styles.container}>
-      <Text>titleArea</Text>
+      {/* <Text>titleArea</Text> */}
+      <Image
+        style={{
+          height: "100%",
+          width: "100%",
+          resizeMode: "cover",
+        }}
+        source={require("../../images/logo.png")}
+      />
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    height: 40,
-    marginLeft: 10,
-    borderWidth: 3,
+    bottom: 10,
+    height: 30,
+    width: 75,
+    // marginLeft: 10,
+    // borderWidth: 3,
   },
 });
