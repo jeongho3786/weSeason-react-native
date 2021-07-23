@@ -1,12 +1,8 @@
 import React from "react";
 import { StyleSheet, Image, TouchableOpacity } from "react-native";
-import { DrawerNavigationProp } from "@react-navigation/drawer";
+import { MenuProps } from "../../types";
 
-type menuProps = {
-  navigation: DrawerNavigationProp<{ main: undefined }, "main">;
-};
-
-export default function Menu({ navigation }: menuProps) {
+export default function Menu({ navigation }: MenuProps) {
   return (
     <TouchableOpacity
       style={styles.container}

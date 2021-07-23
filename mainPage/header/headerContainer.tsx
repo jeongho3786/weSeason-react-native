@@ -2,13 +2,9 @@ import React from "react";
 import Title from "./title";
 import Menu from "./menu";
 import { StyleSheet, View } from "react-native";
-import { DrawerNavigationProp } from "@react-navigation/drawer";
+import { HeadContainerProps } from "../../types";
 
-type headContainerProps = {
-  navigation: DrawerNavigationProp<{ main: undefined }, "main">;
-};
-
-export default function HeaderContainer({ navigation }: headContainerProps) {
+export default function HeaderContainer({ navigation }: HeadContainerProps) {
   return (
     <View style={styles.container}>
       <Title />
