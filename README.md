@@ -39,3 +39,16 @@ figma를 이용해 디자인 초안을 완성했다. 수정한 이미지에 따�
 <img src="https://user-images.githubusercontent.com/69492426/123289260-41e93c80-d54b-11eb-9404-66e542b3de8d.gif" width="400"/>
 </p>
 </details>
+
+<details>
+<summary>21.07.23</summary>
+  
+* 상단 부분 로고와 메뉴 추가<br>
+로그인이나 다른 화면을 구성할 계획은 없지만, 추후에 추가할 것이 있다면 하기 편하게 하기 위해 환경을 셋팅했다.<br>
+앱의 경우 url에 따라 router를 나눌 수 없으므로, navigation 라이브러리를 사용했다.<br>
+라이브러리에서 제공하는 Drawer 기능을 통해 간단하게 사이드 메뉴를 구성했다.
+  
+<p align="center">
+<img width="400" alt="스크린샷 2021-07-23 오후 11 26 35" src="https://user-images.githubusercontent.com/69492426/126798570-409971b2-bb59-406a-a327-e5c0abf053b6.png">
+</p>
+</details>
