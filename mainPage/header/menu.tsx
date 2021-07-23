@@ -1,10 +1,17 @@
 import React from "react";
-import { StyleSheet, Text, View, Image } from "react-native";
+import { StyleSheet, Image, TouchableOpacity } from "react-native";
+import { DrawerNavigationProp } from "@react-navigation/drawer";
 
-export default function Menu() {
+type menuProps = {
+  navigation: DrawerNavigationProp<{ main: undefined }, "main">;
+};
+
+export default function Menu({ navigation }: menuProps) {
   return (
-    <View style={styles.container}>
-      {/* <Text>menuArea</Text> */}
+    <TouchableOpacity
+      style={styles.container}
+      onPress={() => navigation.openDrawer()}
+    >
       <Image
         style={{
           height: "100%",
@@ -13,16 +20,16 @@ export default function Menu() {
         }}
         source={require("../../images/hambugermenu.png")}
       />
-    </View>
+    </TouchableOpacity>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    bottom: 10,
+    bottom: 5,
     height: 25,
     width: 35,
-    // marginRight: 10,
+    marginRight: 10,
     // borderWidth: 3,
   },
 });

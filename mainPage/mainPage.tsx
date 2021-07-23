@@ -5,11 +5,16 @@ import FooterContainer from "./footer/footerContainer";
 import CloudAnimation from "./animation/cloudAnimation";
 import { StyleSheet } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
+import { DrawerNavigationProp } from "@react-navigation/drawer";
 
-export default function MainPage() {
+type mainPageProps = {
+  navigation: DrawerNavigationProp<{ main: undefined }, "main">;
+};
+
+export default function MainPage({ navigation }: mainPageProps) {
   return (
     <LinearGradient colors={["#87B0FF", "#A3FFF9"]} style={styles.container}>
-      <HeaderContainer />
+      <HeaderContainer navigation={navigation} />
       <MainContainer />
       <FooterContainer />
       <CloudAnimation />
