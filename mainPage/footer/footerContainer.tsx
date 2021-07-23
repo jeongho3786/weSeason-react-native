@@ -18,5 +18,6 @@ const styles = StyleSheet.create({
     alignItems: "center",
     borderWidth: 3,
     borderColor: "rgba(249, 252, 119, 0.945)",
+    zIndex: 1,
   },
 });
