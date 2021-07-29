@@ -52,3 +52,17 @@ figma를 이용해 디자인 초안을 완성했다. 수정한 이미지에 따�
 <img width="400" alt="스크린샷 2021-07-23 오후 11 26 35" src="https://user-images.githubusercontent.com/69492426/126798570-409971b2-bb59-406a-a327-e5c0abf053b6.png">
 </p>
 </details>
+
+<details>
+  
+<summary>21.07.29</summary>
+  
+* 날씨 타이틀 부분 추가<br>
+진짜 골치 아픈 부분이었다. 폰트 적용은 그렇다 치더라도 reactNativ에서는 글자에 border를 추가할 수 없었다.<br>
+검색하다가 svg를 통해서 테두리를 적용할 수 있음을 확인하고 바로 적용했지만, 이번에는 폰트가 적용이 안되어서 난감했다.<br>
+머리 싸매다가 그냥 테두리는 포기하고 체감 온도의 범위에 따라 온도 부분의 색을 달리 하자는 결론을 내렸다.
+  
+<p align="center">
+<img width="400" alt="스크린샷 2021-07-29 오후 6 43 16" src="https://user-images.githubusercontent.com/69492426/127472061-1de6dd7b-9595-4e38-a2e7-a251225f55ab.png">
+</p>
+</details>
