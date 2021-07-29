@@ -19,13 +19,13 @@ const styles = StyleSheet.create({
     display: "flex",
     justifyContent: "space-around",
     alignItems: "center",
-    borderWidth: 3,
+    borderWidth: 1,
   },
 
   clothesTitle: {
     width: 200,
     height: 55,
     textAlign: "center",
-    borderWidth: 3,
+    borderWidth: 1,
   },
 });

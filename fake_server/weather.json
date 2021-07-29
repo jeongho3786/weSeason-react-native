@@ -1,0 +1,103 @@
+{
+  "data": [
+    {
+      "dt": 1627534800,
+      "temp": 34.28,
+      "weather": [
+        {
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "dt": 1627538400,
+      "temp": 33.84,
+      "weather": [
+        {
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "dt": 1627542000,
+      "temp": 33.81,
+      "weather": [
+        {
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "dt": 1627545600,
+      "temp": 33.06,
+      "weather": [
+        {
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "dt": 1627549200,
+      "temp": 32.18,
+      "weather": [
+        {
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "dt": 1627552800,
+      "temp": 31.12,
+      "weather": [
+        {
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ]
+    },
+    {
+      "dt": 1627556400,
+      "temp": 29.76,
+      "weather": [
+        {
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ]
+    },
+    {
+      "dt": 1627560000,
+      "temp": 29.19,
+      "weather": [
+        {
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04n"
+        }
+      ]
+    },
+    {
+      "dt": 1627563600,
+      "temp": 28.6,
+      "weather": [
+        {
+          "main": "Clouds",
+          "description": "broken clouds",
+          "icon": "04n"
+        }
+      ]
+    }
+  ]
+}
