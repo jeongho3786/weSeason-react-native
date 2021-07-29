@@ -21,6 +21,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "space-between",
     marginTop: 30,
+    marginBottom: 51,
     // borderWidth: 3,
     // borderColor: "rgb(245, 24, 24)",
     zIndex: 1,

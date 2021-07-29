@@ -13,6 +13,6 @@ const styles = StyleSheet.create({
   container: {
     height: 50,
     width: 300,
-    borderWidth: 3,
+    borderWidth: 1,
   },
 });
